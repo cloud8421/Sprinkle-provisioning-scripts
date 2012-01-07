@@ -3,6 +3,7 @@ require './recipe_helper'
 policy :utils, :roles => :server do
   requires :tree
   requires :vim
+  requires :git
 end
 
 deployment do
